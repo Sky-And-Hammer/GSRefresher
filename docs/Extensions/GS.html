@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GS Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/GS" class="dashAnchor"></a>
+    <a title="GS Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (25% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        GS Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/RefreshComponent.html">RefreshComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RefreshFooter.html">RefreshFooter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RefreshFooterAnimator.html">RefreshFooterAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RefreshHeader.html">RefreshHeader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RefreshHeaderAnimator.html">RefreshHeaderAnimator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/RefreshViewState.html">RefreshViewState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/GS.html">GS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Images.html">Images</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Images/Refresh.html">– Refresh</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScrollView.html">UIScrollView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/RefreshAnimatable.html">RefreshAnimatable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RefreshImpactable.html">RefreshImpactable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Refreshable.html">Refreshable</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>GS</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kt">GS</span><span class="o">&lt;</span><span class="kt">Base</span><span class="o">&gt;</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE7addPullAD13RefreshHeaderCAD0H10Animatable_AD11Refreshablep8animator_yyc7handlertF"></a>
+                    <a name="//apple_ref/swift/Method/addPull(animator:handler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE7addPullAD13RefreshHeaderCAD0H10Animatable_AD11Refreshablep8animator_yyc7handlertF">addPull(animator:handler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>添加下拉 刷新</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addPull</span><span class="p">(</span><span class="nv">animator</span><span class="p">:</span> <span class="kt"><a href="../Protocols/Refreshable.html">Refreshable</a></span> <span class="o">&amp;</span> <span class="kt"><a href="../Protocols/RefreshAnimatable.html">RefreshAnimatable</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/RefreshHeaderAnimator.html">RefreshHeaderAnimator</a></span><span class="o">.</span><span class="nf">init</span><span class="p">(),</span> <span class="nv">handler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">RefreshHandler</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/RefreshHeader.html">RefreshHeader</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animator</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Refreshable &amp; RefreshAnimatable</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>handler</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调 closure</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE11addInfiniteAD13RefreshFooterCAD0H10Animatable_AD11Refreshablep8animator_yyc7handlertF"></a>
+                    <a name="//apple_ref/swift/Method/addInfinite(animator:handler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE11addInfiniteAD13RefreshFooterCAD0H10Animatable_AD11Refreshablep8animator_yyc7handlertF">addInfinite(animator:handler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>添加上拉加载</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addInfinite</span><span class="p">(</span><span class="nv">animator</span><span class="p">:</span> <span class="kt"><a href="../Protocols/Refreshable.html">Refreshable</a></span> <span class="o">&amp;</span> <span class="kt"><a href="../Protocols/RefreshAnimatable.html">RefreshAnimatable</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/RefreshFooterAnimator.html">RefreshFooterAnimator</a></span><span class="o">.</span><span class="nf">init</span><span class="p">(),</span> <span class="nv">handler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">RefreshHandler</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/RefreshFooter.html">RefreshFooter</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animator</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Refreshable &amp; RefreshAnimatable</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>handler</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调 closure</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE12removeHeaderyyF"></a>
+                    <a name="//apple_ref/swift/Method/removeHeader()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE12removeHeaderyyF">removeHeader()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>删除 header</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeHeader</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE12removeFooteryyF"></a>
+                    <a name="//apple_ref/swift/Method/removeFooter()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE12removeFooteryyF">removeFooter()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>删除 footer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeFooter</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE9startPullyyF"></a>
+                    <a name="//apple_ref/swift/Method/startPull()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE9startPullyyF">startPull()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>开始刷新</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">startPull</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE8stopPullySb10ignoreData_Sb0H6FootertF"></a>
+                    <a name="//apple_ref/swift/Method/stopPull(ignoreData:ignoreFooter:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE8stopPullySb10ignoreData_Sb0H6FootertF">stopPull(ignoreData:ignoreFooter:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>停止下拉刷新</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopPull</span><span class="p">(</span><span class="nv">ignoreData</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span> <span class="nv">ignoreFooter</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>ignoreData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>是否需要重制 无上拉加载 的状态</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>ignoreFooter</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>是否需要隐藏 footer</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE12stopInfiniteyyF"></a>
+                    <a name="//apple_ref/swift/Method/stopInfinite()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE12stopInfiniteyyF">stopInfinite()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>停止 上拉加载</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopInfinite</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE16noticeNoMoreDatayyF"></a>
+                    <a name="//apple_ref/swift/Method/noticeNoMoreData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE16noticeNoMoreDatayyF">noticeNoMoreData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>标记上拉加载 无数据</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">noticeNoMoreData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE15resetNoMoreDatayyF"></a>
+                    <a name="//apple_ref/swift/Method/resetNoMoreData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GSStability2GSC11GSRefresherSo12UIScrollViewCRbzlE15resetNoMoreDatayyF">resetNoMoreData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>重置上拉加载 无数据 的状态</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resetNoMoreData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-12-20)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
