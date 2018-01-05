@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0AFD18C21B635C7C41A459C6DA1FBC /* GSRefresher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EC355FF6E6046DDA25EC2D2D212A08 /* GSRefresher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EEFA67AB6263E28E9541E68634544B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		71AF7D5940EA9D5AD4C80CF45C2F4C11 /* Pods-GSRefresher_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 555A842545BF0966EAFAB96366BE7AB3 /* Pods-GSRefresher_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F0433DB69FAFD6937AB20C8FCCB28E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8DB7E11876270412517DED7F752E9F45 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A565ED7351A0AB10AB341CFF6CD3E2 /* ReplaceMe.swift */; };
+		C7583F84A695508DCA3A5AB00611CD8F /* Pods-GSRefresher_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0B0213FBEE2720BE765580FD321E20 /* Pods-GSRefresher_Tests-dummy.m */; };
+		CE158090BE7E05FD4E0800E96BB7EC2D /* GSRefresher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82779901C11EEA3DD9365297059EE9ED /* GSRefresher-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC4FC6EC39727BB270DA96C178E343E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 553A77AC8D6582FE22C87E83B03FDB77;
+			remoteInfo = GSRefresher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD786D7F2363248CFA134ADAD0E3F4E /* GSRefresher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GSRefresher.framework; path = GSRefresher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C05DAA75352E93D98882024BA7C50BB /* GSRefresher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GSRefresher.modulemap; sourceTree = "<group>"; };
+		2CDCF89EDB5954EFF5C447473E78270E /* Pods-GSRefresher_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSRefresher_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D0B0213FBEE2720BE765580FD321E20 /* Pods-GSRefresher_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSRefresher_Tests-dummy.m"; sourceTree = "<group>"; };
+		4C4AA3986F300E86FE06E38904E9585B /* Pods-GSRefresher_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GSRefresher_Tests.modulemap"; sourceTree = "<group>"; };
+		555A842545BF0966EAFAB96366BE7AB3 /* Pods-GSRefresher_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSRefresher_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6695DBD5265FA291B24A37527D798847 /* GSRefresher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSRefresher.xcconfig; sourceTree = "<group>"; };
+		6EBA2653074D42003E04026E156F80AE /* Pods-GSRefresher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSRefresher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		78EC355FF6E6046DDA25EC2D2D212A08 /* GSRefresher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSRefresher-umbrella.h"; sourceTree = "<group>"; };
+		82779901C11EEA3DD9365297059EE9ED /* GSRefresher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSRefresher-dummy.m"; sourceTree = "<group>"; };
+		858C3C652C64E5B69510D45796DE8930 /* Pods-GSRefresher_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSRefresher_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		920BD54CA07E67E8C9B843FF7FB6EED6 /* Pods_GSRefresher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GSRefresher_Tests.framework; path = "Pods-GSRefresher_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9767C826BDCD05CD30AD3FBA8482C523 /* Pods-GSRefresher_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSRefresher_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B99ADBB2C0359F96D169356D630A4C3A /* GSRefresher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSRefresher-prefix.pch"; sourceTree = "<group>"; };
+		C21EA4BD08766C76E9256B43EED2BE85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE587EB5104AABB1A6979AAE54917E26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8397CDE6D207C63B063D8E3AC0BA73 /* Pods-GSRefresher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSRefresher_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EE4E10C0C7FD7C6BAC6F028C8B2B11FD /* Pods-GSRefresher_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSRefresher_Tests-resources.sh"; sourceTree = "<group>"; };
+		F4A565ED7351A0AB10AB341CFF6CD3E2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GSRefresher/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041FA59C7FA48558B280AE366696DF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEFA67AB6263E28E9541E68634544B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F8E2765868BB869BD8E006E2DA16F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0433DB69FAFD6937AB20C8FCCB28E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B68D8A99663B7350997DAED9761092 /* Pods-GSRefresher_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DE587EB5104AABB1A6979AAE54917E26 /* Info.plist */,
+				4C4AA3986F300E86FE06E38904E9585B /* Pods-GSRefresher_Tests.modulemap */,
+				2CDCF89EDB5954EFF5C447473E78270E /* Pods-GSRefresher_Tests-acknowledgements.markdown */,
+				9767C826BDCD05CD30AD3FBA8482C523 /* Pods-GSRefresher_Tests-acknowledgements.plist */,
+				2D0B0213FBEE2720BE765580FD321E20 /* Pods-GSRefresher_Tests-dummy.m */,
+				858C3C652C64E5B69510D45796DE8930 /* Pods-GSRefresher_Tests-frameworks.sh */,
+				EE4E10C0C7FD7C6BAC6F028C8B2B11FD /* Pods-GSRefresher_Tests-resources.sh */,
+				555A842545BF0966EAFAB96366BE7AB3 /* Pods-GSRefresher_Tests-umbrella.h */,
+				6EBA2653074D42003E04026E156F80AE /* Pods-GSRefresher_Tests.debug.xcconfig */,
+				ED8397CDE6D207C63B063D8E3AC0BA73 /* Pods-GSRefresher_Tests.release.xcconfig */,
+			);
+			name = "Pods-GSRefresher_Tests";
+			path = "Target Support Files/Pods-GSRefresher_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FE4CF889BAD2242CE722EBE238E0B2F5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8EE8656479AA73D0B44F1A2D8BE68879 /* Products */,
+				89F61D0ADE012626F82E0D1FA5AA8731 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89F61D0ADE012626F82E0D1FA5AA8731 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32B68D8A99663B7350997DAED9761092 /* Pods-GSRefresher_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8EE8656479AA73D0B44F1A2D8BE68879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD786D7F2363248CFA134ADAD0E3F4E /* GSRefresher.framework */,
+				920BD54CA07E67E8C9B843FF7FB6EED6 /* Pods_GSRefresher_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69B72ADBBD10EDA8DDC19D7AF58E888 /* GSRefresher */ = {
+			isa = PBXGroup;
+			children = (
+				F4A565ED7351A0AB10AB341CFF6CD3E2 /* ReplaceMe.swift */,
+				CB14E24848C3DDB3BB8CAB0454648D9B /* Support Files */,
+			);
+			name = GSRefresher;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB14E24848C3DDB3BB8CAB0454648D9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C05DAA75352E93D98882024BA7C50BB /* GSRefresher.modulemap */,
+				6695DBD5265FA291B24A37527D798847 /* GSRefresher.xcconfig */,
+				82779901C11EEA3DD9365297059EE9ED /* GSRefresher-dummy.m */,
+				B99ADBB2C0359F96D169356D630A4C3A /* GSRefresher-prefix.pch */,
+				78EC355FF6E6046DDA25EC2D2D212A08 /* GSRefresher-umbrella.h */,
+				C21EA4BD08766C76E9256B43EED2BE85 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GSRefresher";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FE4CF889BAD2242CE722EBE238E0B2F5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A69B72ADBBD10EDA8DDC19D7AF58E888 /* GSRefresher */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52F1A24D0BC922FDAC1B3B1072664DB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0AFD18C21B635C7C41A459C6DA1FBC /* GSRefresher-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E322453A7E8A1FE7831F1FD6322676 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AF7D5940EA9D5AD4C80CF45C2F4C11 /* Pods-GSRefresher_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BF84810C5ECA3F76A7942B4C28F48B0 /* Pods-GSRefresher_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185D35AE339773A17A4CB59E5767D1CF /* Build configuration list for PBXNativeTarget "Pods-GSRefresher_Tests" */;
+			buildPhases = (
+				D3E188AF6B05443DE8B2AD1088584DB9 /* Sources */,
+				94F8E2765868BB869BD8E006E2DA16F3 /* Frameworks */,
+				F4E322453A7E8A1FE7831F1FD6322676 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1AC9412453CE078A503C39CED5027B /* PBXTargetDependency */,
+			);
+			name = "Pods-GSRefresher_Tests";
+			productName = "Pods-GSRefresher_Tests";
+			productReference = 920BD54CA07E67E8C9B843FF7FB6EED6 /* Pods_GSRefresher_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		553A77AC8D6582FE22C87E83B03FDB77 /* GSRefresher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B81D6027164AA8431B16BD5B4537570B /* Build configuration list for PBXNativeTarget "GSRefresher" */;
+			buildPhases = (
+				D63DEBE7E9D8C3DF417AD80234549432 /* Sources */,
+				041FA59C7FA48558B280AE366696DF86 /* Frameworks */,
+				52F1A24D0BC922FDAC1B3B1072664DB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSRefresher;
+			productName = GSRefresher;
+			productReference = 1AD786D7F2363248CFA134ADAD0E3F4E /* GSRefresher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8EE8656479AA73D0B44F1A2D8BE68879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				553A77AC8D6582FE22C87E83B03FDB77 /* GSRefresher */,
+				1BF84810C5ECA3F76A7942B4C28F48B0 /* Pods-GSRefresher_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3E188AF6B05443DE8B2AD1088584DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7583F84A695508DCA3A5AB00611CD8F /* Pods-GSRefresher_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63DEBE7E9D8C3DF417AD80234549432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE158090BE7E05FD4E0800E96BB7EC2D /* GSRefresher-dummy.m in Sources */,
+				8DB7E11876270412517DED7F752E9F45 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1AC9412453CE078A503C39CED5027B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GSRefresher;
+			target = 553A77AC8D6582FE22C87E83B03FDB77 /* GSRefresher */;
+			targetProxy = DC4FC6EC39727BB270DA96C178E343E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		171377798453791E4AF13918901A9688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EBA2653074D42003E04026E156F80AE /* Pods-GSRefresher_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GSRefresher_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSRefresher_Tests/Pods-GSRefresher_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GSRefresher_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E6A1D4E328E48A2337BA93A30BA4C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6695DBD5265FA291B24A37527D798847 /* GSRefresher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GSRefresher/GSRefresher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSRefresher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GSRefresher/GSRefresher.modulemap";
+				PRODUCT_NAME = GSRefresher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C456B1672ADEE44E3E5F59CA64149E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8397CDE6D207C63B063D8E3AC0BA73 /* Pods-GSRefresher_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GSRefresher_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSRefresher_Tests/Pods-GSRefresher_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GSRefresher_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E56152DC12F48CFEAA03B4C239D44DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6695DBD5265FA291B24A37527D798847 /* GSRefresher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GSRefresher/GSRefresher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSRefresher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GSRefresher/GSRefresher.modulemap";
+				PRODUCT_NAME = GSRefresher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185D35AE339773A17A4CB59E5767D1CF /* Build configuration list for PBXNativeTarget "Pods-GSRefresher_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171377798453791E4AF13918901A9688 /* Debug */,
+				C456B1672ADEE44E3E5F59CA64149E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B81D6027164AA8431B16BD5B4537570B /* Build configuration list for PBXNativeTarget "GSRefresher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56152DC12F48CFEAA03B4C239D44DE5 /* Debug */,
+				1E6A1D4E328E48A2337BA93A30BA4C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

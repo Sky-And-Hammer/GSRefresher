@@ -1,0 +1,6 @@
+framework module GSRefresher {
+  umbrella header "GSRefresher-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GSRefresher_Tests' do
+  pod 'GSRefresher', :path => '../'
+  
+  
+end
